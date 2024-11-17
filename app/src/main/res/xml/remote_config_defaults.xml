@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>isBannerShow</key>
+    <value>true</value>
+  </entry>
+  <entry>
+    <key>isOpeanAppShow</key>
+    <value>false</value>
+  </entry>
+  <entry>
+    <key>isInterShow</key>
+    <value>false</value>
+  </entry>
+</defaults>

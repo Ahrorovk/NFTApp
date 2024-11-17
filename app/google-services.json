@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865507272821",
+    "project_id": "nftapp-60add",
+    "storage_bucket": "nftapp-60add.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865507272821:android:3c8a199dbe5ad7a62c303c",
+        "android_client_info": {
+          "package_name": "mobi.nftblockchain.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Tg__ma9tj4dcqoZRsU0a2NZmj2NplLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
