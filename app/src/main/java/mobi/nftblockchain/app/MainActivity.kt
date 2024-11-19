@@ -102,9 +102,7 @@ class MainActivity : AppCompatActivity(), MaxAdViewAdListener {
         super.onCreate(savedInstanceState)
         // Creating an extended library configuration.
 
-        interstitialAd = MaxInterstitialAd(INTERSTITIAL_KEY, applicationContext)
 
-        adView = MaxAdView(BANNER_KEY, this)
         val config =
             AppMetricaConfig.newConfigBuilder("166726e4-4415-47c0-92c7-6cdecfe7d1b4").build()
         // Initializing the AppMetrica SDK.
@@ -248,6 +246,7 @@ class MainActivity : AppCompatActivity(), MaxAdViewAdListener {
     }
 
     fun createBannerAd() {
+        adView = MaxAdView(BANNER_KEY, this)
 
         adView.setListener(this)
         val adContainer: FrameLayout = findViewById(R.id.adView)
@@ -256,6 +255,7 @@ class MainActivity : AppCompatActivity(), MaxAdViewAdListener {
     }
 
     fun createInterstitialAd() {
+        interstitialAd = MaxInterstitialAd(INTERSTITIAL_KEY, applicationContext)
 
         interstitialAd.setListener(this)
 
